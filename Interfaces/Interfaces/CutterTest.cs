@@ -1,5 +1,4 @@
-﻿using System;
-namespace Interfaces
+﻿namespace Interfaces
 {
 	public class CutterTest
 	{
