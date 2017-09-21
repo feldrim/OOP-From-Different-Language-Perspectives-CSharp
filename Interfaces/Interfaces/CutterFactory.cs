@@ -3,13 +3,18 @@ namespace Interfaces
 {
 	public class CutterFactory
 	{
-		private static Random random = new Random ();
+		private readonly Random _random;
 
-		public static ICutter CreateCutter ()
+	    public CutterFactory()
+	    {
+	        _random = new Random();
+	    }
+
+		public ICutter CreateCutter ()
 		{
 			ICutter cutter = null;
 
-			var i = (int)(3 * random.NextDouble ());
+			var i = (int)(3 * _random.NextDouble ());
 
 			switch (i) {
 			case 0:
