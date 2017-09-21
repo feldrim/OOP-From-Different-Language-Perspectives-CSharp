@@ -5,9 +5,9 @@ namespace Interfaces
 	{
 		private static Random random = new Random ();
 
-		public static Cutter createCutter ()
+		public static ICutter createCutter ()
 		{
-			Cutter cutter = null;
+			ICutter cutter = null;
 
 			int i = (int)(3 * random.NextDouble ());
 

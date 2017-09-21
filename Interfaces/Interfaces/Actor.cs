@@ -2,7 +2,7 @@
 
 namespace Interfaces
 {
-	public class Actor : Cutter
+	public class Actor : ICutter
 	{
 		public void cut ()
 		{

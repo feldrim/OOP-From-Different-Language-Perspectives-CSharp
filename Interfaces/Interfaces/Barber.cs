@@ -2,7 +2,7 @@
 
 namespace Interfaces
 {
-	public class Barber : Cutter
+	public class Barber : ICutter
 	{
 		public void cut ()
 		{

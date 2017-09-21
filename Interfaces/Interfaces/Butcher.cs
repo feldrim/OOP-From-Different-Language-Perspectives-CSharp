@@ -2,7 +2,7 @@
 
 namespace Interfaces
 {
-	public class Butcher : Cutter
+	public class Butcher : ICutter
 	{
 		public void cut ()
 		{
