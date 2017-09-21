@@ -2,7 +2,7 @@
 
 using System;
 
-namespace car
+namespace Car
 {
 
 	public class CarTest
