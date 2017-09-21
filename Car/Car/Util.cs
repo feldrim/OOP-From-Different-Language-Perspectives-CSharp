@@ -4,9 +4,9 @@ namespace car
 {
 	public class Util
 	{
-		public const int topSpeed = 200;
+		public const int TopSpeed = 200;
 
-		public static void washCar (Car car)
+		public static void WashCar (Car car)
 		{
 			Console.WriteLine ("Washing car: " + car.Make + " " + car.Model + " of " + car.Year);
 		}

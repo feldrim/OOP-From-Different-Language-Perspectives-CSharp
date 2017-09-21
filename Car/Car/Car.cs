@@ -14,22 +14,22 @@ namespace car
 
 	    public int Distance { get; set; }
 
-        public void go (int newDistance)
+        public void Go (int newDistance)
 		{
 			Distance += newDistance;
 		}
 
-		public void accelerate (int newSpeed)
+		public void Accelerate (int newSpeed)
 		{
 			Speed = newSpeed;
 		}
 
-		public void stop ()
+		public void Stop ()
 		{
 			Speed = 0;
 		}
 
-		public string getInfo ()
+		public string GetInfo ()
 		{
 			return "Car Info: " + Year + " " + Make + " " + Model + ". Distance: " + Distance + " km. and traveling at " + Speed + " kmph.";
 		}

@@ -17,12 +17,12 @@ namespace car
 			car1.Year = "2017";
 			car1.Distance = 0;
 			car1.Speed = 0;
-			Console.WriteLine (car1.getInfo ());
+			Console.WriteLine (car1.GetInfo ());
 
-			car1.accelerate (125);
-			car1.go (100);
-			car1.go (50);
-			Console.WriteLine (car1.getInfo ());
+			car1.Accelerate (125);
+			car1.Go (100);
+			car1.Go (50);
+			Console.WriteLine (car1.GetInfo ());
 
 			Console.WriteLine ();
 
@@ -32,11 +32,11 @@ namespace car
 			car2.Year = "2016";
 			car2.Distance = 10000;
 			car2.Speed = 0;
-			Console.WriteLine (car2.getInfo ());
+			Console.WriteLine (car2.GetInfo ());
 
-			car2.accelerate (220);
-			car2.go (150);
-			Console.WriteLine (car2.getInfo ());
+			car2.Accelerate (220);
+			car2.Go (150);
+			Console.WriteLine (car2.GetInfo ());
 
 			Console.WriteLine ();
 
