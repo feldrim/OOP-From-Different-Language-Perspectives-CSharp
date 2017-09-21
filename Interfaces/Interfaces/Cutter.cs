@@ -2,9 +2,9 @@
 
 namespace Interfaces
 {
-	public interface ICutter
-	{
-		void Cut ();
-	}
+    public interface ICutter
+    {
+        void Cut();
+    }
 }
 
