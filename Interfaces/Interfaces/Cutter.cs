@@ -4,7 +4,7 @@ namespace Interfaces
 {
 	public interface ICutter
 	{
-		void cut ();
+		void Cut ();
 	}
 }
 

@@ -5,7 +5,7 @@ namespace Interfaces
 	{
 		private static Random random = new Random ();
 
-		public static ICutter createCutter ()
+		public static ICutter CreateCutter ()
 		{
 			ICutter cutter = null;
 

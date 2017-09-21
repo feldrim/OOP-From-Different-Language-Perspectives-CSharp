@@ -4,7 +4,7 @@ namespace Interfaces
 {
 	public class Butcher : ICutter
 	{
-		public void cut ()
+		public void Cut ()
 		{
 			Console.WriteLine ("I've just started cutting the meat!");
 		}

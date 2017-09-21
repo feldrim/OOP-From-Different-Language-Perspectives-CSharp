@@ -4,7 +4,7 @@ namespace Interfaces
 {
 	public class Actor : ICutter
 	{
-		public void cut ()
+		public void Cut ()
 		{
 			Console.WriteLine ("I've just stop acting!");
 		}

@@ -4,7 +4,7 @@ namespace Interfaces
 {
 	public class Barber : ICutter
 	{
-		public void cut ()
+		public void Cut ()
 		{
 			Console.WriteLine ("I'm gonna cut your hair very stylish!");
 		}
