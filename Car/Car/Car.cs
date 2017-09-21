@@ -31,7 +31,7 @@ namespace car
 
 		public string GetInfo ()
 		{
-			return "Car Info: " + Year + " " + Make + " " + Model + ". Distance: " + Distance + " km. and traveling at " + Speed + " kmph.";
+			return $"Car Info: {Year} {Make} {Model}. Distance: {Distance} km. and traveling at {Speed} kmph.";
 		}
 
 
