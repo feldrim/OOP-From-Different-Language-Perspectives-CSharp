@@ -6,6 +6,8 @@ namespace Car
     {
         public static void Main(string[] args)
         {
+            var carWasher = new CarWasher();
+
             var car1 = new Car
             {
                 Make = "Mercedes",
@@ -39,8 +41,7 @@ namespace Car
 
             Console.WriteLine();
 
-            //car1.Speed = Util.topSpeed;
-            //Util.washCar (car1);
+            carWasher.WashCar(car1);
         }
     }
 }
