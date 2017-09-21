@@ -14,12 +14,12 @@ namespace Car
                 Distance = 0,
                 Speed = 0
             };
-            Console.WriteLine(car1.ToString());
+            Console.WriteLine(car1);
 
             car1.Accelerate(125);
             car1.Go(100);
             car1.Go(50);
-            Console.WriteLine(car1.ToString());
+            Console.WriteLine(car1);
 
             Console.WriteLine();
 
@@ -31,11 +31,11 @@ namespace Car
                 Distance = 10000,
                 Speed = 0
             };
-            Console.WriteLine(car2.ToString());
+            Console.WriteLine(car2);
 
             car2.Accelerate(220);
             car2.Go(150);
-            Console.WriteLine(car2.ToString());
+            Console.WriteLine(car2);
 
             Console.WriteLine();
 
