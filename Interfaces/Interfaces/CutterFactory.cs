@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Interfaces
 {
     public class CutterFactory
@@ -14,7 +15,7 @@ namespace Interfaces
         {
             ICutter cutter = null;
 
-            var i = (int)(3 * _random.NextDouble());
+            var i = (int) (3 * _random.NextDouble());
 
             switch (i)
             {
@@ -29,8 +30,6 @@ namespace Interfaces
                     break;
             }
             return cutter;
-
         }
     }
 }
-
