@@ -11,7 +11,7 @@ namespace Car
 		public static void Main (string [] args)
 		{
 
-			Car car1 = new Car ();
+			var car1 = new Car ();
 			car1.Make = "Mercedes";
 			car1.Model = "C200";
 			car1.Year = "2017";
@@ -26,7 +26,7 @@ namespace Car
 
 			Console.WriteLine ();
 
-			Car car2 = new Car ();
+			var car2 = new Car ();
 			car2.Make = "BMW";
 			car2.Model = "i8";
 			car2.Year = "2016";
