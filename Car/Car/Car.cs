@@ -29,7 +29,7 @@ namespace Car
 			Speed = 0;
 		}
 
-		public string GetInfo ()
+		public override string ToString ()
 		{
 			return $"Car Info: {Year} {Make} {Model}. Distance: {Distance} km. and traveling at {Speed} kmph.";
 		}
