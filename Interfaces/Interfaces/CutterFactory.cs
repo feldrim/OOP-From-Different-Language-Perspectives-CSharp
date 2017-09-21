@@ -9,7 +9,7 @@ namespace Interfaces
 		{
 			ICutter cutter = null;
 
-			int i = (int)(3 * random.NextDouble ());
+			var i = (int)(3 * random.NextDouble ());
 
 			switch (i) {
 			case 0:

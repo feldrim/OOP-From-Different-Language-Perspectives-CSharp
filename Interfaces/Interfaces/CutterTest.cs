@@ -5,8 +5,8 @@ namespace Interfaces
 	{
 		public static void Main (string [] args)
 		{
-			for (int i = 0; i < 5; i++) {
-				ICutter cutter = CutterFactory.CreateCutter ();
+			for (var i = 0; i < 5; i++) {
+				var cutter = CutterFactory.CreateCutter ();
 				cutter.Cut ();
 			}
 		}
